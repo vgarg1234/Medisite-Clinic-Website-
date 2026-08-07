@@ -1,0 +1,23 @@
+/* * {
+  scrollbar-width: thin;
+  scrollbar-color: #C7F2FF, #F6FBFF;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #F6FBFF;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #2DC2A8, #C7F2FF);
+  border-radius: 10px;
+  border: 2px solid #F6FBFF;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #25a892, #2DC2A8);
+} */
