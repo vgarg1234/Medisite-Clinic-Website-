@@ -18,7 +18,7 @@ const team = [
     bio: 'Dr. James Carter is a highly experienced cardiologist specializing in interventional cardiology and heart failure management. He has performed over 2,000 cardiac procedures and is dedicated to providing compassionate, evidence-based care to every patient.',
   },
   {
-    name: 'Dr. Sarah Mitchell',
+    name: 'Dr. Robert Hayes',
     role: 'Neurologist',
     department: 'Neurology',
     image: '/assets/team2.png',
@@ -29,7 +29,7 @@ const team = [
     bio: 'Dr. Sarah Mitchell is a board-certified neurologist with expertise in stroke management, epilepsy, and neurodegenerative disorders. She is committed to advancing neurological care through research and patient-centered treatment.',
   },
   {
-    name: 'Dr. Robert Hayes',
+    name: 'Dr. Sarah Mitchell',
     role: 'Orthopedic Surgeon',
     department: 'Orthopedics',
     image: '/assets/team3.png',
