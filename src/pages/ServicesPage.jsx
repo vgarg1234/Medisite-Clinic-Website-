@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Container, Typography } from '@mui/material';
 import Navbar from '../components/Navbar';
 import ServicesSection from '../components/ServicesSection';
+import Footer from '../components/Footer';
 
 export default function ServicesPage() {
   return (
@@ -16,6 +17,7 @@ export default function ServicesPage() {
         </Typography>
       </Container>
       <ServicesSection />
+      <Footer />
     </Box>
   );
 }
