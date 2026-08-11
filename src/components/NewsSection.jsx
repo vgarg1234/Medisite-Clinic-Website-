@@ -7,44 +7,44 @@ import 'swiper/css/pagination';
 
 const news = [
   {
-    title: 'Lorum Ipsum is Dumy text which you can see',
+    title: 'New Advances in Cardiology: What You Need to Know',
     date: '18 Sep, 2024',
     comments: '1 Comments',
     image: '/assets/news1.png',
     fallback: 'https://images.unsplash.com/photo-1580281657521-4ca2c486a818?auto=format&fit=crop&w=600&q=80',
-    description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.',
+    description: 'Recent breakthroughs in cardiology are helping doctors detect heart disease earlier and treat patients more effectively than ever before.',
   },
   {
-    title: 'Lorum Ipsum is Dumy text which you can see',
+    title: 'Understanding Preventive Healthcare and Its Benefits',
     date: '18 Sep, 2024',
     comments: '1 Comments',
     image: '/assets/news2.png',
     fallback: 'https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=600&q=80',
-    description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.',
+    description: 'Preventive care is the cornerstone of a healthy life. Learn how regular checkups and screenings can help you stay ahead of potential health issues.',
   },
   {
-    title: 'Lorum Ipsum is Dumy text which you can see',
+    title: 'Medisite Launches New Pediatric Care Unit',
     date: '18 Sep, 2024',
     comments: '1 Comments',
     image: '/assets/news3.png',
     fallback: 'https://images.unsplash.com/photo-1580281657521-4ca2c486a818?auto=format&fit=crop&w=600&q=80',
-    description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.',
+    description: 'We are proud to announce the opening of our new pediatric care unit, designed to provide specialized and compassionate care for children of all ages.',
   },
   {
-    title: 'Lorum Ipsum is Dumy text which you can see',
+    title: 'Tips for Managing Stress and Improving Mental Health',
     date: '18 Sep, 2024',
     comments: '1 Comments',
     image: '/assets/news2.png',
     fallback: 'https://images.unsplash.com/photo-1580281657521-4ca2c486a818?auto=format&fit=crop&w=600&q=80',
-    description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.',
+    description: 'Mental health is just as important as physical health. Our specialists share practical tips to help you manage stress and build emotional resilience.',
   },
   {
-    title: 'Lorum Ipsum is Dumy text which you can see',
+    title: 'How Nutrition Plays a Key Role in Recovery',
     date: '18 Sep, 2024',
     comments: '1 Comments',
     image: '/assets/news1.png',
     fallback: 'https://images.unsplash.com/photo-1580281657521-4ca2c486a818?auto=format&fit=crop&w=600&q=80',
-    description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.',
+    description: 'Proper nutrition accelerates healing and strengthens the immune system. Our dietitians explain the best foods to support your recovery journey.',
   },
 ];
 
@@ -57,7 +57,7 @@ export default function NewsSection() {
         News & Events
       </Typography>
       <Typography variant="body1" align="center" color="text.secondary" sx={{ mb: 6, maxWidth: 640, mx: 'auto' }}>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.{' '}<br />Richard McClintock.
+        Stay informed with the latest health tips, medical breakthroughs, and news from the Medisite team.
       </Typography>
 
       <Container maxWidth="lg">
@@ -107,7 +107,7 @@ export default function NewsSection() {
                       {item.title}
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                      Contrary to popular belief, Lorem Ipsum is not simply random text.
+                      Stay up to date with the latest medical news and health tips from our experts.
                     </Typography>
                   </CardContent>
                 </Card>

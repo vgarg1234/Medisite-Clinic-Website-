@@ -104,7 +104,7 @@ export default function HeroSection() {
               A Wealth of Experience To Heal And Help You.
             </Typography>
             <Typography variant="body1" sx={{ maxWidth: 485, mb: 4, opacity: 0.88 }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+              Your health is our priority. We offer expert medical care with a team of dedicated professionals available to guide and support you every step of the way.
             </Typography>
             <Box sx={{ mt: 5, position: 'relative', zIndex: 2 , boxShadow: 0}}>
               <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
@@ -156,7 +156,7 @@ export default function HeroSection() {
                         variant="h5"
                         sx={{ color: '#ffffff', fontWeight: 600, letterSpacing: 2, fontSize: { xs: 50, sm: 60 }, lineHeight: 1.05 }}
                       >
-                        LORUM<br />IPSUM
+                        MEDI<br />SITE
                       </Typography>
                     </Box>
                     <Box sx={{ position: 'absolute', bottom: 70, left: 0, right: 0, display: 'flex', justifyContent: 'center' }}>

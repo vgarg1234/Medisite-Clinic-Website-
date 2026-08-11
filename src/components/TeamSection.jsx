@@ -19,7 +19,7 @@ export default function TeamSection() {
         Our Expert Team
       </Typography>
       <Typography variant="body1" align="center" color="text.secondary" sx={{ mb: 6, maxWidth: 640, mx: 'auto' }}>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years {' '}<br /> old. Richard McClintock,
+        Our team of dedicated medical professionals is here to provide you with the best healthcare experience possible.
       </Typography>
 
       <Grid container spacing={3}>

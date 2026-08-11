@@ -19,9 +19,9 @@ export default function AboutSection() {
               maxWidth: 540,
             }}
           >
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.
+            At Medisite, we are committed to delivering compassionate, high-quality healthcare to every patient.
+            Our experienced team of specialists works around the clock to provide personalized treatment
+            and ensure your well-being at every step of your medical journey.
           </Typography>
 
           <Button
