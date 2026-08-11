@@ -8,7 +8,9 @@ export default function NewsPage() {
   return (
     <Box sx={{ bgcolor: 'background.default', minHeight: '100vh' }}>
       <Navbar />
-      <NewsSection />
+      <Box sx={{ pt: { xs: 4, md: 6 } }}>
+        <NewsSection />
+      </Box>
       <Footer />
     </Box>
   );
