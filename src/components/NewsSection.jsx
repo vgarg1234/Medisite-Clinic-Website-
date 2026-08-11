@@ -75,20 +75,23 @@ export default function NewsSection() {
             600: { slidesPerView: 2 },
             900: { slidesPerView: 3 },
           }}
-          style={{ paddingBottom: '48px' }}
+          style={{ paddingBottom: '48px', alignItems: 'stretch' }}
         >
           {news.map((item, index) => (
             <SwiperSlide key={`${item.title}-${index}`}>
               <Box
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
-                sx={{ position: 'relative' }}
+                sx={{ position: 'relative', height: '100%' }}
               >
                 <Card
                   sx={{
                     borderRadius: 0,
                     boxShadow: '0 8px 24px rgba(0,0,0,0.12)',
                     transition: 'transform 200ms ease, box-shadow 200ms ease',
+                    height: '100%',
+                    display: 'flex',
+                    flexDirection: 'column',
                   }}
                 >
                   <Box
@@ -96,14 +99,14 @@ export default function NewsSection() {
                     src={item.image}
                     alt={item.title}
                     onError={(e) => { e.currentTarget.src = item.fallback; }}
-                    sx={{ width: '100%', height: 220, objectFit: 'cover' }}
+                    sx={{ width: '100%', height: 220, objectFit: 'cover', flexShrink: 0 }}
                   />
-                  <CardContent>
+                  <CardContent sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
                     <Stack direction="row" justifyContent="space-between" spacing={1} sx={{ mb: 1 }}>
                       <Typography variant="caption" color="primary">{item.date}</Typography>
                       <Typography variant="caption" color="text.secondary">{item.comments}</Typography>
                     </Stack>
-                    <Typography variant="h6" fontWeight={700} sx={{ mb: 1, fontSize: '0.95rem' }}>
+                    <Typography variant="h6" fontWeight={700} sx={{ mb: 1, fontSize: '0.95rem', minHeight: 48 }}>
                       {item.title}
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
